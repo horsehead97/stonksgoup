@@ -119,3 +119,29 @@ a{
     margin:0 auto;
     margin-top: 10px;
 }
+table{
+    background:#006400;
+    width: 80%;
+    padding:5px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*border:solid;*/
+    border-radius: 2px;
+}
+
+th{
+	text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+}
+td{
+	text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background:#bdb76b;
+    border-radius: 2px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
