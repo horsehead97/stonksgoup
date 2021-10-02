@@ -1,44 +1,23 @@
-body{
-    font-size:150%;
-    font-family:arial,time new roman;
-    background-image:url("https://previews.123rf.com/images/mthipsorn/mthipsorn2003/mthipsorn200300033/141391251-close-up-of-beautiful-nature-view-green-leaf-on-white-sky-background-under-sunlight-with-copy-space-.jpg")
-}
-header{
-    text-align:center;
-}
-nav {
-  text-decoration:none;
-}
-nav a{
-   display:inline-block;
-    width:15% ;
-    background: rgba(0, 128, 0, 0.3);
-    margin:10px;
-    padding:2%;
-    border-radius:10px;
-    text-decoration:none;
-color:}
-.left{
-    display:block;
-    width: 20%;
-    height: 100vh;
-    float: left;
-    background: rgba(0, 128, 0, 0.3);
-    padding:10px;
-    margin:10px;
-    border-radius:10px;
-}
-img{
-    display: block;
-    width: 100%;
-    border: solid 2px #000000;
-    margin: 0 auto;
-    margin-top: 30%;
-    margin-bottom: 1%;
-}
-.active{
-    background:rgba(255, 99, 71, 0.7);
-}
-a:hover{
-    background:rgba(255, 255, 71, 0.7);
-}
+body {
+    background-color: #DDDDDD;
+    font-family: "Open Sans", sans-serif;
+  }
+  h1 {
+    text-align: center;
+  }
+  .tagline {
+    text-align: center;
+    color: blue;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  th {
+    background-color: #F8FF75;
+  }
+  li a {
+    color: blue;
+  }
