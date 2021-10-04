@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Basics</title>
+</head>
+<body>
+    <h1>Javascript Basic Challenges</h1>
+    <h2>Challenge One</h2>
+    <script>
+        var firstName="Scott";
+        var lastName="Langdon";
+        console.log(firstName,lastName);
+        var adjective="craft";
+        console.log(`We all know that ${firstName} ${lastName} is very ${adjective}.`);
+        // var name=prompt("What's your name?","Bob");
+        // console.log(`Hello ${name}, welcome to this javascript course!`);
+        // var number=prompt("Pick a number, any number:",10);
+        // var mystr=""
+        // if(isNaN(number)){
+        //     mystr="ERROR: you didn't enter a number!"
+        // }
+        // else if(number<10){
+        //     mystr="You entered a number less than 10.";
+        //     for(var i=0;i<10;i++){
+        //         if(i==number){
+        //             console.log(`Here is a ${i} <--this is your number!`);
+        //         }
+        //         else{console.log(`Here is a ${i}`);}
+        //     }
+        // }
+        // else{
+        //     mystr="You entered a big number";
+        // }
+        // console.log(mystr);
+        // console.log(`Hello ${name}, welcome to this javascript course!`);
+        var color=prompt("Pick a color, any color","green");
+        var mystr=""
+        if(isNaN(color)){
+            color=color.toLowerCase();
+            if(color=="red"||color=="blue"||color=="yellow"){
+                console.log(`You picked a primary color: ${color}`);
+            }
+            else if(color=="orange"||color=="green"||color=="purple"){
+                console.log(`You picked a secondary color: ${color}`);
+            }
+            else{
+                console.log(`You picked a color: ${color}`);
+            }
+        }
+        else{
+            console.log("ERROR: you entered a number, not a color!");
+        }    
+            
+        // }
+        // else if(number<10){
+        //     mystr="You entered a number less than 10.";
+        //     for(var i=0;i<10;i++){
+        //         if(i==number){
+        //             console.log(`Here is a ${i} <--this is your number!`);
+        //         }
+        //         else{console.log(`Here is a ${i}`);}
+        //     }
+        // }
+        // else{
+        //     mystr="You entered a big number";
+        // }
+        // console.log(mystr);
+
+    </script>
+</body>
+</html>
