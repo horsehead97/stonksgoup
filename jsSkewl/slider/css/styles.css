@@ -45,7 +45,7 @@ p { text-align: center; }
 }
 
 /************ Animation Styles ************/
-fadeinimg{
+.fadeinimg{
 	animation: fadein 2s;
 }
 @keyframes fadein{
