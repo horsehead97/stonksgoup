@@ -37,7 +37,20 @@
     //         myparas[i].style.color = "red";
     //     }  
     // }    
-   $('#main p:contains("Llamas and chickens!")').css("color","red");
+  // $('#main p:contains("Llamas and chickens!")').css("color","red");
+  //challenge 11 and 12
+//   const myAnchors=document.querySelectorAll("nav ul li a");
+//   for(let i=0;i<myAnchors.length;i++){
+//     myAnchors[i].addEventListener('click', function(){alert('clicked!');});
+//   }  
+//$('nav ul li a').click(function(){alert('clicked!');});    
+//challenge 13 and 14
+// const myAnchors=document.querySelectorAll("nav ul li a");
+// for(let i=0;i<myAnchors.length;i++){
+//    myAnchors[i].addEventListener('click', function(){alert(this.innerHTML);});
+//    }  
+$('nav ul li a').click(function(){alert($(this).html());}); 
+
 
 
 })();
