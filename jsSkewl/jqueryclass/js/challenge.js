@@ -49,7 +49,19 @@
 // for(let i=0;i<myAnchors.length;i++){
 //    myAnchors[i].addEventListener('click', function(){alert(this.innerHTML);});
 //    }  
-$('nav ul li a').click(function(){alert($(this).html());}); 
+//$('nav ul li a').click(function(){alert($(this).html());}); 
+ //challenge 15 and 16
+  // const myAnchors=document.querySelectorAll("nav ul li a");
+  // for(let i=0;i<myAnchors.length;i++){
+  //   myAnchors[i].addEventListener('click', function(){this.style.color="red";});
+  // }  
+  //$('nav ul li a').click(function(){$(this).css("color","red");})
+  //challenge 17 and 18
+  const myAnchors=document.querySelectorAll("nav ul li a");
+  const mypara=document.querySelector("#paragraph");
+  for(let i=0;i<myAnchors.length;i++){
+    myAnchors[i].addEventListener('click', function(){mypara.innerHTML=`you clicked ${this.innerHTML}`;});
+  }  
 
 
 
