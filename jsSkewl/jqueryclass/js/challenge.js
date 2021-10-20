@@ -57,11 +57,46 @@
   // }  
   //$('nav ul li a').click(function(){$(this).css("color","red");})
   //challenge 17 and 18
-  const myAnchors=document.querySelectorAll("nav ul li a");
-  const mypara=document.querySelector("#paragraph");
-  for(let i=0;i<myAnchors.length;i++){
-    myAnchors[i].addEventListener('click', function(){mypara.innerHTML=`you clicked ${this.innerHTML}`;});
-  }  
+  // const myAnchors=document.querySelectorAll("nav ul li a");
+  // const mypara=document.querySelector("#paragraph");
+  // for(let i=0;i<myAnchors.length;i++){
+  //   myAnchors[i].addEventListener('click', function(){mypara.innerHTML=`you clicked ${this.innerHTML}`;});
+  // } 
+  //$('nav ul li a').click(function(){$('#paragraph').text(`You clicked ${$(this).html()}`);})
+ //challenge 19 and 20
+  //  const myAnchors=document.querySelectorAll("nav ul li a");
+  //  for(let i=0;i<myAnchors.length;i++){
+  //      myAnchors[i].addEventListener('click', function(){
+  //       for(let j=0;j<myAnchors.length;j++){
+  //           if(i==j){document.querySelector(`#paralink${j+1}`).style.color="red";}
+  //           else{document.querySelector(`#paralink${j+1}`).style.color="black";}
+  //       }   
+  //     });
+  //   } 
+  $("nav ul li a").click(function () {
+    const paraNumber = "#para" + $(this).attr("id"); // constructs #paralink3 for example
+    $("p").css("color", "black");
+    $(paraNumber).css("color", "red");
+    });
+   
+  // $('nav ul li a').click(function(){
+  //     $("p").css("color", "black");
+  //     //let paranumber=`para${$(this).attr("id")}`;
+  //     const paranumber = "#para" + $(this).attr("id"); 
+  //     alert(paranumber);
+  //    $(`para${$(this).attr("id")}`).css("color","red");
+  //   })   
+    
+    // for(let i=0;i<myAnchors.length;i++){ myAnchors[i].addEventListener('click',function()){
+    //    for(let j=0;j<myAnchors.length;j++){
+    //       let myID=`paralink${j+1}`;
+    //       console.log(myID);
+    //       //const mypara=document.querySelector("#main p:last-of-type");
+    //   }
+    // });
+    //}  
+      //mypara.innerHTML=`you clicked ${this.innerHTML}`;
+   
 
 
 
